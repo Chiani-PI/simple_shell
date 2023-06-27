@@ -37,7 +37,7 @@
 extern char **environ;
 
 /**
- * struct strlist – singly_linkd_list
+ * struct strlist – singly linkd lisst
  * @num: Num_field
  * @str: Strng
  * @next: Points to nxt_node
