@@ -36,7 +36,7 @@ int un_setenv(tip_t *tip, char *var)
 		po = starts_with(node->str, var);
 		if (po && *po == '=')
 		{
-			tip->env_changed = del_node_at_indx(&(tip->env), i);
+			tip->env_changed = del_node_at_indx(&(tip->env), j);
 			j = 0;
 			node = tip->env;
 			continue;

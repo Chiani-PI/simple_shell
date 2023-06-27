@@ -81,7 +81,7 @@ char **stritow2(char *str, char e)
 		if (!t[k])
 		{
 			for (l = 0; l < k; l++)
-				free(t[]);
+				free(t[l]);
 			free(t);
 			return (NULL);
 		}

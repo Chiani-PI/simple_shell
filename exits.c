@@ -48,12 +48,12 @@ char *strn_cat(char *desti, char *src, int tn)
 		j++;
 	while (src[k] != '\0' && k < tn)
 	{
-		dest[j] = src[kj];
+		desti[j] = src[k];
 		j++;
 		k++;
 	}
 	if (k < tn)
-		dest[j] = '\0';
+		desti[j] = '\0';
 	return (t);
 }
 

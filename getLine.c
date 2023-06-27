@@ -82,7 +82,7 @@ ssize_t _get_input(tip_t *tip)
 		}
 
 		*buf_pp = po; /* pass pointer back to present cmd positn */
-		return (str_len(p)); /* return len of present cmd */
+		return (str_len(po)); /* return len of present cmd */
 	}
 
 	*buf_pp = buf; /* Except not a chain, pass buffer back from _get_line() */
@@ -101,7 +101,7 @@ ssize_t _read_buf(tip_t *tip, char *buf, size_t *j)
 {
 	ssize_t r = 0;
 
-	if (*i)
+	if (*j)
 		return (0);
 	r = read(tip->readfd, buf, READ_BUF_SIZE);
 	if (r >= 0)
@@ -144,7 +144,7 @@ int _get_line(tip_t *tip, char **ptr, size_t *length)
 	if (t)
 		strn_cat(new_pp, buf + j, l - j);
 	else
-		strn_cpy(new_pp, buf + i, k - i + 1);
+		strn_cpy(new_pp, buf + j, l - j + 1);
 
 	t += l - j;
 	j = l;
