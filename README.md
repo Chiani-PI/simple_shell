@@ -1,1 +1,1 @@
-simple_shell repo readme
+Simple Shell project readme
