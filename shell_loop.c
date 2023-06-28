@@ -125,16 +125,16 @@ void _find_cmd(tip_t *tip)
  */
 void _fork_cmd(tip_t *tip)
 {
-	pid_t baby_pid;
+	pid_t child_pid;
 
-	baby_pid = fork();
-	if (baby_pid == -1)
+	child_pid = fork();
+	if (child_pid == -1)
 	{
 		/* For TODO: PUT_ERR_FUNC sections */
 		perror("Error:");
 		return;
 	}
-	if (baby_pid == 0)
+	if (child_pid == 0)
 	{
 		if (execve(tip->path, tip->argv, _get_environ_(tip)) == -1)
 		{
