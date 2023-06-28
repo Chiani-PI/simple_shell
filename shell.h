@@ -37,10 +37,12 @@
 extern char **environ;
 
 /**
- * struct strlist – singly linkd lisst
- * @num: Num_field
- * @str: Strng
- * @next: Points to nxt_node
+ * struct strlist – singly linked list structur
+ * @num: Numeric field
+ * @str: String field
+ * @next: Pointer to my  next node
+ *
+ * Longer descrip of this structure
  */
 typedef struct strlist
 {
