@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _eputs – Func to print a string inputted
+ * _eputs - Func to print a string inputted
  * @str: String for printng
  *
  * Return: Nada
@@ -20,7 +20,7 @@ void _eputs(char *str)
 }
 
 /**
- * _eputchar – Func to write d char d to standarderr
+ * _eputchar - Func to write d char d to standarderr
  * @d: Char for printng
  *
  * Return: 1(success), else -1 and d errno is appropriatly set
@@ -41,7 +41,7 @@ int _eputchar(char d)
 }
 
 /**
- * _putfd – Func to write d char d to d given file_descriptr
+ * _putfd - Func to write d char d to d given file_descriptr
  * @d: Char for printng
  * @fd: File-descriptr to be written to
  *

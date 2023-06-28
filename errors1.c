@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _erratoi – Func changes a str to an int
+ * _erratoi - Func changes a str to an int
  * @t: String for conversion
  * Return: 0 if there’s no nums in the str, convertd num, else -1 (error)
  */
@@ -84,7 +84,7 @@ int priint_dec(int input, int fd)
 }
 
 /**
- * transform_num – A convrtr func, clone of itoa
+ * transform_num - A convrtr func, clone of itoa
  * @num: Numeral
  * @base: The base
  * @waves: Arg flags

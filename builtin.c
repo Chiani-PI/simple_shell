@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _dexit – Function leaves shell
+ * _dexit - Function leaves shell
  * @tip: The struct containn possible args. For maintainn const func prototyp
  * Return: Exit shsowing its status, else 0 if tip.argv[0] isnt equalto exit
  */
@@ -28,7 +28,7 @@ int _dexit(tip_t *tip)
 }
 
 /**
- * _ourcd – Func switches the present dir of the process
+ * _ourcd - Func switches the present dir of the process
  * @tip: The struct containn possible args. For maintainn const func prototyp
  * Return: 0
  */

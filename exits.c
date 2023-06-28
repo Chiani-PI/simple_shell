@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * strn_cpy – Func copies strng
+ * strn_cpy - Func copies strng
  * @desti: Destinatn strng will be copied to
  * @src: Srce strng
  * @tn: Amount of char for copy
@@ -31,7 +31,7 @@ char *strn_cpy(char *desti, char *src, int tn)
 }
 
 /**
- * strn_cat – Func concats 2strings
+ * strn_cat - Func concats 2strings
  * @desti: String1
  * @src: String2
  * @tn: Tamount of bytes for max use
@@ -58,7 +58,7 @@ char *strn_cat(char *desti, char *src, int tn)
 }
 
 /**
- * str_chr – Func finds char within strng
+ * str_chr - Func finds char within strng
  * @t: String for parsing
  * @d: Character for search
  * Return: pointer to the memory_area t (t)

@@ -12,7 +12,7 @@ int synergic(tip_t *tip)
 }
 
 /**
- * is_separ – function evaluates whether a char is a separator
+ * is_separ - function evaluates whether a char is a separator
  * @d: the inputted character to be evaluated
  * @separ: separator string
  *
@@ -41,7 +41,7 @@ int is_alpha(int d)
 }
 
 /**
- * _atoi – Function changes a string to an integer
+ * _atoi - Function changes a string to an integer
  * @t: String to be changed
  *
  * Return: 0 if there are nums within string, else changed number

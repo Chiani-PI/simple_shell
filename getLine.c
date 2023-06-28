@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _input_buf – The buffer’s_chaind_commnds
+ * _input_buf - The buffer’s_chaind_commnds
  * @tip: Param struct
  * @buf: Buffer addy
  * @len: Length variabl addy
@@ -45,7 +45,7 @@ ssize_t _input_buf(tip_t *tip, char **buf, size_t *len)
 }
 
 /**
- * _get_input – Func gets a line without new_line
+ * _get_input - Func gets a line without new_line
  * @tip: Param struct
  *
  * Return: Bytes reaad
@@ -90,7 +90,7 @@ ssize_t _get_input(tip_t *tip)
 }
 
 /**
- * _read_buf – Func reads buffer
+ * _read_buf - Func reads buffer
  * @tip: Param struct
  * @buf: Buffer
  * @j: Size
@@ -110,7 +110,7 @@ ssize_t _read_buf(tip_t *tip, char *buf, size_t *j)
 }
 
 /**
- * _get_line – Func gets nxt_line of input from STDIN
+ * _get_line - Func gets nxt_line of input from STDIN
  * @tip: Param struct
  * @ptr: Pointer addy to buffer, preallocatd or NULL
  * @length: Size of preallocatd pointr buffr if not NULL
@@ -157,7 +157,7 @@ int _get_line(tip_t *tip, char **ptr, size_t *length)
 }
 
 /**
- * _sigintHandler – Func to block ctrl-C
+ * _sigintHandler - Func to block ctrl-C
  * @sigg_num: the signal number
  *
  * Return: void

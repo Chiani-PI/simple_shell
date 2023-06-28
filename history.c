@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_histry_fl – Func gets d history_file
+ * get_histry_fl - Func gets d history_file
  * @tip: Param struct
  *
  * Return: The allctd strng which contains history_file
@@ -25,7 +25,7 @@ char *get_histry_fl(tip_t *tip)
 }
 
 /**
- * write_histry – Func creates a file or adds to a present file
+ * write_histry - Func creates a file or adds to a present file
  * @tip: Param struct
  *
  * Return: 1 (success), else -1
@@ -54,7 +54,7 @@ int write_histry(tip_t *tip)
 }
 
 /**
- * read_histry – Func readds histry 4rm file
+ * read_histry - Func readds histry 4rm file
  * @tip: Param struct
  *
  * Return: histrycount (success), else 0
@@ -103,7 +103,7 @@ int read_histry(tip_t *tip)
 }
 
 /**
- * build_histry_list – Func adds_entry to a histry_linked_list
+ * build_histry_list - Func adds_entry to a histry_linked_list
  * @tip: The struct containn possible args. For maintainn const func prototyp
  * @buf: buffer
  * @lnecount: History_lnecount or histrycount
@@ -124,7 +124,7 @@ int build_histry_list(tip_t *tip, char *buf, int lnecount)
 }
 
 /**
- * re_num_histry – Func renumbers histry_lniked_list following mod
+ * re_num_histry - Func renumbers histry_lniked_list following mod
  * @tip: The struct containn possible args. For maintainn const func prototyp
  *
  * Return: Fresh histrycount

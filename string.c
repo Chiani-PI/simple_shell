@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * str_len – Func will return str_length
+ * str_len - Func will return str_length
  * @t: Strng for length_check
  *
  * Return: int for string_length
@@ -19,7 +19,7 @@ int str_len(char *t)
 }
 
 /**
- * _strcmp – Func does dictionary analogy of two_strngs.
+ * _strcmp - Func does dictionary analogy of two_strngs.
  * @t1: String1
  * @t2: String2
  *
@@ -42,7 +42,7 @@ int _strcmp(char *t1, char *t2)
 }
 
 /**
- * starts_with – Func evaluates if sewpin starts with yahstack
+ * starts_with - Func evaluates if sewpin starts with yahstack
  * @yahstack: Strng to be search with
  * @sewpin: Substrng to be found
  *
@@ -57,7 +57,7 @@ char *starts_with(const char *yahstack, const char *sewpin)
 }
 
 /**
- * str_cat – Func concatjoins two_strngs
+ * str_cat - Func concatjoins two_strngs
  * @dest: Desti_buffer
  * @src: Src_buffer
  *

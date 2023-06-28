@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * bbfree – this func frees_pointr and NULLs_ addy
+ * bbfree - this func frees_pointr and NULLs_ addy
  * @ptr: Pointer to be freed’s addy
  *
  * Return: 1 when freed, else 0

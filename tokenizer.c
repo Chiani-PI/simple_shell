@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * **stritow – Func splits_string into_words. Repete separators are ignrd
+ * **stritow - Func splits_string into_words. Repete separators are ignrd
  * @str: Input_strng
- * @deli: Separ_strng
+ * @e: Separ_strng
  * Return: Pointer to an arr_strngs, else NULL if fail
  */
 
@@ -49,9 +49,9 @@ char **stritow(char *str, char *e)
 }
 
 /**
- * **stritow2 – Func splits strng_into_words
+ * **stritow2 - Func splits strng_into_words
  * @str: Input_strng
- * @deli: Separ
+ * @e: Separ
  * Return: Pointr to an array_of_strngs, else NULL if fail
  */
 char **stritow2(char *str, char e)

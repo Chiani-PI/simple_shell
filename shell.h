@@ -36,13 +36,12 @@
 
 extern char **environ;
 
+
 /**
- * struct strlist – singly linked list structur
+ * struct strlist - singly linkd lisst
  * @num: Numeric field
  * @str: String field
- * @next: Pointer to my  next node
- *
- * Longer descrip of this structure
+ * @next: Pointer to my nxt node
  */
 typedef struct strlist
 {
@@ -51,8 +50,9 @@ typedef struct strlist
 	struct strlist *next;
 } list_t;
 
+
 /**
- * struct passtip – Struct holds pseudo_args to pass into a func,
+ * struct passtip - Struct holds pseudo_args to pass into a func,
  * allowng unifrm prototyp for func_pointr_struct
  * @arg: Strng genrtd frm getline containn args
  * @argv: Array_of_strngs genrtd_from_arg
@@ -101,7 +101,7 @@ typedef struct passtip
 		0, 0, 0}
 
 /**
- * struct builtin – Struct holds builtin_strng nd relatd_func
+ * struct builtin - Struct holds builtin_strng nd relatd_func
  * @type: Builtin cmd_flag
  * @func: Func
  */

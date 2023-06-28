@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * clear_tip – Func inits tip_t struct
+ * clear_tip - Func inits tip_t struct
  * @tip: Struct addy
  */
 void clear_tip(tip_t *tip)
@@ -44,7 +44,7 @@ void set_tip(tip_t *tip, char **av)
 }
 
 /**
- * free_tip – Func to free tip_t struct fields
+ * free_tip - Func to free tip_t struct fields
  * @tip: Struct addy
  * @all: True if all fields are being freed
  */

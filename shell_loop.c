@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * hsh – Func for the main shell_loop
+ * hsh - Func for the main shell_loop
  * @tip: Param and return_info structs
  * @av: Arg_vecor frm main()
  *
@@ -44,7 +44,7 @@ int hsh(tip_t *tip, char **av)
 }
 
 /**
- * _find_builtin – Func searches for builtin_cmd
+ * _find_builtin - Func searches for builtin_cmd
  * @tip: Param and return_info structs
  *
  * Return: -1 if builtin_not_found, 0 if builtin_exec_sucsfly,
@@ -76,7 +76,7 @@ int _find_builtin(tip_t *tip)
 }
 
 /**
- * _find_cmd – Func searches for cmd_in_PATH
+ * _find_cmd - Func searches for cmd_in_PATH
  * @tip: Param and return_info structs
  *
  * Return: void
@@ -118,7 +118,7 @@ void _find_cmd(tip_t *tip)
 }
 
 /**
- * _fork_cmd – Func will fork exe_thread to run_cmd
+ * _fork_cmd - Func will fork exe_thread to run_cmd
  * @tip: Param and return_info structs
  *
  * Return: void

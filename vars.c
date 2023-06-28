@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * _is_chain – Func checks if present_char in buffer is a chain_sepasr
+ * _is_chain - Func checks if present_char in buffer is a chain_sepasr
  * @tip: Param_struct
  * @buf: Char_buffer
- * @p: Present position in buf addy
+ * @po: Present position in buf addy
  *
  * Return: 1 if chain_separ, else 0
  */
@@ -36,10 +36,10 @@ int _is_chain(tip_t *tip, char *buf, size_t *po)
 }
 
 /**
- * _check_chain – Func confirms if chainng shld cont dependng on prev status
+ * _check_chain - Func confirms if chainng shld cont dependng on prev status
  * @tip: Param_struct
  * @buf: Char_buffer
- * @p: Addy_present positn in buf
+ * @po: Addy_present positn in buf
  * @i: StartN_positn in buf
  * @len: buf_len
  *
@@ -70,7 +70,7 @@ void _check_chain(tip_t *tip, char *buf, size_t *po, size_t i, size_t len)
 }
 
 /**
- * _replace_alias – Func replace_aliases in tokenzd_strng
+ * _replace_alias - Func replace_aliases in tokenzd_strng
  * @tip: Param_struct
  *
  * Return: 1 on replace, else 0
@@ -99,7 +99,7 @@ int _replace_alias(tip_t *tip)
 }
 
 /**
- * _replace_vars – Func replace_vars in tokenzd_strng
+ * _replace_vars - Func replace_vars in tokenzd_strng
  * @tip: Param_struct
  *
  * Return: 1 on replace, else 0
@@ -140,7 +140,7 @@ int _replace_vars(tip_t *tip)
 }
 
 /**
- * _replace_string – Func replace_strng
+ * _replace_string - Func replace_strng
  * @old: Old strng_addy
  * @new: Fresh_strng
  *

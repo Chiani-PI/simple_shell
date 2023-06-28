@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * addd_nodde – Func to addd_nodde to sttart¬_of_list
+ * addd_nodde - Func to addd_nodde to sttart¬_of_list
  * @head: Pointer_addy to head_node
  * @str: Strng_field of node
  * @num: Histrys node index
@@ -34,7 +34,7 @@ list_t *addd_nodde(list_t **head, const char *str, int num)
 }
 
 /**
- * addd_nodde_endd – Func adds_node to end_of_list
+ * addd_nodde_endd - Func adds_node to end_of_list
  * @head: Pointer to head_node addy
  * @str: str_field of node
  * @num: histry_node index
@@ -75,7 +75,7 @@ list_t *addd_nodde_endd(list_t **head, const char *str, int num)
 }
 
 /**
- * priint_list_str – Func prints only the str_elemnt of a list_t linked_list
+ * priint_list_str - Func prints only the str_elemnt of a list_t linked_list
  * @ho: Node1 pointer
  *
  * Return: List sz
@@ -95,7 +95,7 @@ size_t priint_list_str(const list_t *ho)
 }
 
 /**
- * del_node_at_indx – Func delts_node at givn_index
+ * del_node_at_indx - Func delts_node at givn_index
  * @head: Node1 pointer addy
  * @index: Node_index for deletion
  *
@@ -135,7 +135,7 @@ int del_node_at_indx(list_t **head, unsigned int index)
 }
 
 /**
- * _free_list – Func free_all_noddes of liist
+ * _free_list - Func free_all_noddes of liist
  * @head_ptr: Head_node pointer addy
  *
  * Return: void

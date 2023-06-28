@@ -17,7 +17,7 @@ char **_get_environ_(tip_t *tip)
 }
 
 /**
- * un_setenv – Func rems an envir variabl
+ * un_setenv - Func rems an envir variabl
  * @tip: The struct containn possible args. For maintainn const func prototyp
  *  Return: 1 if deleted, else 0
  * @var: Envir varbl property’s strng
@@ -48,7 +48,7 @@ int un_setenv(tip_t *tip, char *var)
 }
 
 /**
- * _set_env – Func inits a fresh envirnmnt varbl or mods a present one
+ * _set_env - Func inits a fresh envirnmnt varbl or mods a present one
  * @tip: The struct containn possible args. For maintainn const func prototyp
  * @var: Envi varbl proprty of strng
  * @value: Envi varbl value of strng

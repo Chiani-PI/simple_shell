@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _list_len – Func determns linked_list len
+ * _list_len - Func determns linked_list len
  * @ho: Node1 pointer
  *
  * Return: List sz
@@ -19,7 +19,7 @@ size_t _list_len(const list_t *ho)
 }
 
 /**
- * _list_to_strings – Func returns arr_of_strngs of list->str
+ * _list_to_strings - Func returns arr_of_strngs of list->str
  * @head: Node1 pointer
  *
  * Return: arr_of_strngs
@@ -56,8 +56,8 @@ char **_list_to_strings(list_t *head)
 
 
 /**
- * priint_list – Func prints all_elem of a list_t linkd_list
- * @h: Node1 pointer
+ * priint_list - Func prints all_elem of a list_t linkd_list
+ * @ho: Node1 pointer
  *
  * Return: List sz
  */
@@ -79,7 +79,7 @@ size_t priint_list(const list_t *ho)
 }
 
 /**
- * _node_starts_with – Func returns_node whse_strng begins_with_prefix
+ * _node_starts_with - Func returns_node whse_strng begins_with_prefix
  * @node: List head pointr
  * @prefix: Strng for matching
  * @d: Nxt char after prefix to_be matched

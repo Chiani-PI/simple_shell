@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * str_cpy – Func to copy strng
+ * str_cpy - Func to copy strng
  * @dest: Desti
  * @src: Sourc
  *
@@ -23,7 +23,7 @@ char *str_cpy(char *dest, char *src)
 }
 
 /**
- * str_dup – Func to dup_strng
+ * str_dup - Func to dup_strng
  * @str: Strng for dup
  *
  * Return: Pointr to the dup_strng
@@ -46,7 +46,7 @@ char *str_dup(const char *str)
 }
 
 /**
- * _puts – Func displays an input_strng
+ * _puts - Func displays an input_strng
  * @str: Strng to be displayed
  *
  * Return: Nada
@@ -65,7 +65,7 @@ void _puts(char *str)
 }
 
 /**
- * _putchar – Func writes the char d to stdout
+ * _putchar - Func writes the char d to stdout
  * @d: Char for printing
  *
  * Return: 1 (success), else -1 and errno is set correctly.

@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _ourhistry – Func shows history_ls, a command each ln,
+ * _ourhistry - Func shows history_ls, a command each ln,
  * preceded by ln nums from 0
  * @tip: The struct containn possible args. For maintainn const func prototyp
  *  Return: 0
@@ -13,7 +13,7 @@ int _ourhistry(tip_t *tip)
 }
 
 /**
- * un_set_allias – Func to (un)assign an alias from a strriinng
+ * un_set_allias - Func to (un)assign an alias from a strriinng
  * @tip: Struct for param
  * @str: String’s allias
  *
@@ -57,7 +57,7 @@ int seet_allias(tip_t *tip, char *str)
 }
 
 /**
- * priint_allias – Func to print a string’s alias
+ * priint_allias - Func to print a string’s alias
  * @node: Allias’ node
  *
  * Return: 0 (success), else 1
@@ -80,7 +80,7 @@ int priint_allias(list_t *node)
 }
 
 /**
- * _ourallias – Func copies the built-in allias ”((man alias))”
+ * _ourallias - Func copies the built-in allias ”((man alias))”
  * @tip: The struct containn possible args. For maintainn const func prototyp
  *  Return: 0
  */

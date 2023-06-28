@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _mem_set – Func fills memry with a const_byte
+ * _mem_set - Func fills memry with a const_byte
  * @s: Pointr to the mem_area
  * @b: Byte to_fill *s with
  * @n: Amnt of bytes_to be_filled
@@ -17,7 +17,7 @@ char *_mem_set(char *s, char b, unsigned int n)
 }
 
 /**
- * _ffree – Func to free a strng_of_strngs
+ * _ffree - Func to free a strng_of_strngs
  * @pp: strng_of_strngs
  */
 void _ffree(char **pp)
@@ -32,7 +32,7 @@ void _ffree(char **pp)
 }
 
 /**
- * _re_alloc – Func reallcts a mem_block
+ * _re_alloc - Func reallcts a mem_block
  * @ptr: Pointer to prev_ malloc'atd_block
  * @old_size: Byte sz of prev_block
  * @new_size: Byte sz of new_block

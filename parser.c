@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _is_cmd – Func determns if a file is an exec_cmd
+ * _is_cmd - Func determns if a file is an exec_cmd
  * @tip: Tip_struct
  * @path: File_path
  *
@@ -23,7 +23,7 @@ int _is_cmd(tip_t *tip, char *path)
 }
 
 /**
- * _dup_chars – Func duplicate_chars
+ * _dup_chars - Func duplicate_chars
  * @pathstr: Path’s strng
  * @start: Beginng index
  * @stop: Endng index
@@ -43,7 +43,7 @@ char *_dup_chars(char *pathstr, int start, int stop)
 }
 
 /**
- * _find_path – Func find this comand in d PATH strng
+ * _find_path - Func find this comand in d PATH strng
  * @tip: Tip_struct
  * @pathstr: PATH_strng
  * @cmd: cmd to be found
